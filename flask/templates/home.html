@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+    <body>
+        <a href="/">Home</a> <a href="/write">Write</a>
+        {% for key, content in article_dict.items() %}
+            <h1><a href='/article/{{key}}'>{{content["title"]}}
+            </a></h1></br>
+        {% endfor %}
+    </body>
+</html>

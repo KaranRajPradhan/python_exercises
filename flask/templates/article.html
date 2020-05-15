@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <body>
+        <a href = "{{ url_for('home') }}">Home</a></br>
+        {% if article != None %}
+            <h1> {{article["title"]}} </h1>
+            <p>{{article["content"]}}</p>
+        {% else %}
+            <h1>No Article Found</h1>
+        {% endif %}
+    </body>
+</html>

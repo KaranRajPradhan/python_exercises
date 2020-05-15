@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="refresh" content="10" />
+    <h1>
+        The temperature is {{temperature}} and humidity is {{humidity}}.
+    </h1>
+    <br>
+    <body>
+      <form action = "{{url_for('home')}}", method = "post">
+         On Temperature: <input type = "text" name="max_temp" value="">
+         <br>
+         On Humidity: <input type = "text" name="max_humidity" value="" >
+          <br>
+         <input type = "submit" value = "Submit" >
+      </form>
+       
+    </body>
+</html>

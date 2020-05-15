@@ -1,0 +1,6 @@
+tika
+parse
+pandas
+matplotlib
+jupyter
+openpyxl
